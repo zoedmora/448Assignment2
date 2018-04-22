@@ -1,0 +1,45 @@
+img.replyButton{
+    background: white;
+
+    max-width: 5%;
+    max-height: 5%;
+}
+
+
+#mainTopic
+{
+    border-bottom:5px dashed #eee
+}
+
+#Comment_27309, #Comment_27848, #Comment_27957
+{
+    margin-left: 300px
+}
+
+
+#Form_Search
+{
+    border:  solid rgba(0,200,255) 2px;
+    border-radius: 15px;
+}
+
+#sup, #Form_Search, #Form_Go, 
+
+{
+/*
+    border: solid blue;
+    border-bottom: solid red;
+    outline-color: aqua;
+*/
+}
+
+
+img.replyBu{
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
