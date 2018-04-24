@@ -1,3 +1,91 @@
-<p>
-  home works!
-</p>
+<div id="banner-home">
+  <div class="form-home">
+    <div class="header-banner">
+      <h1>La communauté est la pour vous</h1>
+      <p>Le covoiturage simplifie vos trajets #touscovoitureurs</p>
+    </div>
+    <form class="form-inline">
+      <label class="sr-only" for="Search">Search</label>
+      <input type="text" class="form-control mb-2 mr-sm-2" id="Search" placeholder="Search">
+
+
+      <button type="button" class="btn mb-2 mr-sm-2" (click)="isCollapsed = !isCollapsed"
+              [attr.aria-expanded]="!isCollapsed" aria-controls="collapseChoices" style="padding: 10px 30px;width: 226px;">
+        {{name}}
+      </button>
+      <!--<label class="sr-only" for="Categories">Category</label>-->
+      <!--<input type="text" class="form-control mb-2 mr-sm-2" id="Categories" placeholder="Category">-->
+
+      <label class="sr-only" for="State">State</label>
+      <input name="States" placeholder="State" type="text" class="form-control mb-2 mr-sm-2" id="State"
+             [(ngModel)]="model"
+             [ngbTypeahead]="search"/>
+
+
+      <button type="submit" class="btn mb-2 btn-craiglist">Submit</button>
+    </form>
+  </div>
+</div>
+
+<div class="container" style="position: relative">
+  <div id="collapseChoices" [ngbCollapse]="!isCollapsed">
+    <div class="row">
+      <div class="col-md-3">
+        <h6><a (click)="changeCategory('Community')">Community</a></h6>
+        <ul>
+          <li><a (click)="changeCategory('Activities')">Activities</a></li>
+          <li><a (click)="changeCategory('Artists')">Artists</a></li>
+          <li><a (click)="changeCategory('Childcare')">Childcare</a></li>
+          <li><a (click)="changeCategory('Local news')">Local news</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 (click)="changeCategory('Services')"><a >Services</a></h6>
+        <ul>
+          <li><a (click)="changeCategory('Legal')">Legal</a></li>
+          <li><a (click)="changeCategory('Lessons')">Lessons</a></li>
+          <li><a (click)="changeCategory('Automotive')">Automotive</a></li>
+          <li><a (click)="changeCategory('Real Estate')">Real Estate</a></li>
+          <li><a (click)="changeCategory('Pet')">Pet</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 (click)="changeCategory('Housing')"><a>Housing</a></h6>
+        <ul>
+          <li><a (click)="changeCategory('Apts / Housing')">Apts / Housing</a></li>
+          <li><a (click)="changeCategory('Housing swap')">Housing swap</a></li>
+          <li><a (click)="changeCategory('Housing wanted')">Housing wanted</a></li>
+          <li><a (click)="changeCategory('Office / commerciale')">Office / commerciale</a></li>
+          <li><a (click)="changeCategory('Real estate')">Real estate</a></li>
+          <li><a (click)="changeCategory('Vacation rentals')">Vacation rentals</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 (click)="changeCategory('For sale')"><a>For sale</a></h6>
+        <ul>
+          <li><a (click)="changeCategory('Automobiles')">Automobiles</a></li>
+          <li><a (click)="changeCategory('Boats')">Boats</a></li>
+          <li><a (click)="changeCategory('Books')">Books</a></li>
+          <li><a (click)="changeCategory('Collectibles')">Collectibles</a></li>
+          <li><a (click)="changeCategory('Computers')">Computers</a></li>
+          <li><a (click)="changeCategory('Tickets')">Tickets</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 (click)="changeCategory('Jobs')"><a>Jobs</a></h6>
+        <ul>
+          <li><a (click)="changeCategory('Accounting / Finance')">Accounting / Finance</a></li>
+          <li><a (click)="changeCategory('Business')">Business</a></li>
+          <li><a (click)="changeCategory('Books')">Books</a></li>
+          <li><a (click)="changeCategory('Customer service')">Customer service</a></li>
+          <li><a (click)="changeCategory('Education')">Education</a></li>
+          <li><a (click)="changeCategory('Internet')">Internet</a></li>
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+

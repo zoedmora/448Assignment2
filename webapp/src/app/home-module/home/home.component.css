@@ -1,0 +1,78 @@
+#banner-home {
+  width: 100%;
+  height: 80vh;
+  background-image: url(https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/rebranding/homeblock_main_strike_desktop_v2.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+}
+
+#banner-home::after {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.8), transparent 60%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+
+
+.form-home {
+  margin: auto auto 50px auto;
+  z-index: 2;
+}
+
+.form-home input {
+  padding: 10px 30px;
+}
+
+.form-home .btn-craiglist {
+padding: 10px 50px!important;
+}
+
+.header-banner h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.header-banner p {
+  color: white;
+  font-size: 25px;
+}
+
+#collapseChoices {
+  position: absolute;
+  background: white;
+  width: 100%;
+  padding: 20px 40px;
+  border: 1px solid #cecece;
+  z-index: 2;
+  top: -30px;
+}
+
+#collapseChoices h6 a{
+  background: #800080;
+  color: white!important;
+  text-align: center;
+  padding: 5px 20px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#collapseChoices ul {
+  padding: 0;
+}
+
+#collapseChoices li {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+#collapseChoices li a {
+  text-decoration: underline;
+
+}

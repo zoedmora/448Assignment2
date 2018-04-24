@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  font-family: 'Allerta', sans-serif;
+}
+
+.color-craiglist {
+  color: #800080!important;
+}
+
+.btn-craiglist {
+  color: white!important;
+  background: #800080!important;
+  border: none!important;;
+  padding: 8px 32px 8px 32px!important;
+  border-radius: 15px!important;;
+  box-shadow: none!important;;
+}
+
+.btn-craiglist fa {
+  margin-right: 14px;
+}
+
+
