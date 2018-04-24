@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d4611ab-8a96-4b0c-b736-fdec3cc395d3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/src/assets/images/logo-craiglist.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webapp/src/assets/styles/bootstrap/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/webapp/.angular-cli.json" afterPath="$PROJECT_DIR$/webapp/.angular-cli.json" />
-      <change beforePath="$PROJECT_DIR$/webapp/package-lock.json" afterPath="$PROJECT_DIR$/webapp/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/webapp/package.json" afterPath="$PROJECT_DIR$/webapp/package.json" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/app.component.html" afterPath="$PROJECT_DIR$/webapp/src/app/app.component.html" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/app.module.ts" afterPath="$PROJECT_DIR$/webapp/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.css" afterPath="$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.css" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.html" afterPath="$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.html" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/home-module/home.module.ts" afterPath="$PROJECT_DIR$/webapp/src/app/home-module/home.module.ts" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.css" afterPath="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.css" />
       <change beforePath="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.html" afterPath="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.html" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.ts" afterPath="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.ts" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/assets/styles/styles.css" afterPath="$PROJECT_DIR$/webapp/src/assets/styles/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.component.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -61,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="60">
+              <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -164,10 +150,10 @@
         <option value="$PROJECT_DIR$/webapp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/webapp/src/app/home-module/home.module.ts" />
         <option value="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.html" />
         <option value="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.css" />
         <option value="$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.css" />
+        <option value="$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -261,6 +247,23 @@
               <item name="header-module" type="462c0819:PsiDirectoryNode" />
               <item name="header" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="448Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="448Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="448Assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="448Assignment2" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home-module" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -308,12 +311,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523920945107</updated>
       <workItem from="1523920946466" duration="365000" />
-      <workItem from="1524525962706" duration="10453000" />
+      <workItem from="1524525962706" duration="10550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10818000" />
+    <option name="totallyTimeSpent" value="10915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1088" extended-state="6" />
@@ -485,22 +488,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/header-module/header/header.component.html">
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,10 +506,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.css">
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/header-module/header/header.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -530,11 +530,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/footer-module/footer/footer.component.css">
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/home-module/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
