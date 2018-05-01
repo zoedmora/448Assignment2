@@ -40,6 +40,8 @@ export class HomeComponent implements OnInit {
     }
     else
       this.name = _name;
+    this.isCollapsed = false;
+
   }
   ngOnInit() {
   }
