@@ -1,7 +1,8 @@
 #banner-home {
   width: 100%;
-  height: 80vh;
-  background-image: url(https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/rebranding/homeblock_main_strike_desktop_v2.jpg);
+  height: 20vh;
+  background: #cacaca;
+  /*background-image: url(https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/rebranding/homeblock_main_strike_desktop_v2.jpg);*/
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -10,19 +11,9 @@
   position: relative;
 }
 
-#banner-home::after {
-  background-image: linear-gradient(to top, rgba(0,0,0,0.8), transparent 60%);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  z-index: 1;
-}
-
 
 .form-home {
-  margin: auto auto 50px auto;
+  margin: auto auto auto auto;
   z-index: 2;
 }
 
@@ -31,7 +22,7 @@
 }
 
 .form-home .btn-craiglist {
-padding: 10px 50px!important;
+  padding: 10px 50px!important;
 }
 
 .header-banner h1 {

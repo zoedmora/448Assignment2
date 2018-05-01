@@ -1,9 +1,5 @@
 <div id="banner-home">
   <div class="form-home">
-    <div class="header-banner">
-      <h1>Lorem ipsum dolor sit amet, consectetur</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitgit </p>
-    </div>
     <form class="form-inline">
       <label class="sr-only" for="Search">Search</label>
       <input type="text" class="form-control mb-2 mr-sm-2" id="Search" placeholder="Search">
@@ -84,6 +80,55 @@
       </div>
 
 
+    </div>
+  </div>
+</div>
+
+
+<div class="container" >
+  <div class="row">
+    <div class="col-md-4">
+      <div style="margin-top: 25px">
+        <label for="exampleFormControlSelect1">Sort by</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Relevant</option>
+          <option>Price UP</option>
+          <option>Price DOWN</option>
+          <option>Date UP</option>
+          <option>Date DOWN</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let item of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];let i = index" class="col-lg-4 col-md-4" style="margin-top: 25px">
+      <section class="box-vehicle-grid" style="margin-bottom:20px;border:1px solid #e6e6e6;">
+        <section class="grid-image" style="height:250px;background-image:url('http://via.placeholder.com/350x300');background-size:cover;background-position:center;cursor:pointer;">
+          <a style="height:100%;width:100%;display:block;"></a>
+        </section>
+        <section class="grid-description" style="padding: 20px">
+          <div class="row">
+            <div class="col-md-12 vehicle-name text-blue-dark" style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;">
+              Item to sell #{{i + 1}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-blue-dark" style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 12px">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="pull-left text-center" style="background:#F2F2F2;padding:10px;">
+                <b>
+                  $ 19 990
+                </b>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </section>
     </div>
   </div>
 </div>

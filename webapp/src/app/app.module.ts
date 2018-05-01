@@ -11,10 +11,14 @@ import {HeaderModule} from "./header-module/header.module";
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import {ListingModule} from "./listing-module/listing.module";
+import { ForumComponent } from './forum-module/forum/forum.component';
+import {ForumModule} from "./forum-module/forum.module";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ForumComponent
   ],
   imports: [
     NgbModule.forRoot(),
@@ -25,7 +29,9 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     HomeModule,
     AngularFontAwesomeModule,
-    FormsModule
+    FormsModule,
+    ListingModule,
+    ForumModule
   ],
   providers: [],
   bootstrap: [AppComponent]
