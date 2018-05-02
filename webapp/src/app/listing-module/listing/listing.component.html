@@ -101,15 +101,15 @@
     </div>
   </div>
   <div class="row">
-    <div *ngFor="let item of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];let i = index" class="col-lg-4 col-md-4" style="margin-top: 25px">
+    <div *ngFor="let item of [1,2,3,4,5,6,7,8,9];let i = index" class="col-lg-4 col-md-4" style="margin-top: 25px">
       <section class="box-vehicle-grid" style="margin-bottom:20px;border:1px solid #e6e6e6;">
-        <section class="grid-image" style="height:250px;background-image:url('http://via.placeholder.com/350x300');background-size:cover;background-position:center;cursor:pointer;">
+        <section [style.background]="'url('+names[i]+')'" class="grid-image" style="height:250px;background-position:center;cursor:pointer;">
           <a style="height:100%;width:100%;display:block;"></a>
         </section>
         <section class="grid-description" style="padding: 20px">
           <div class="row">
             <div class="col-md-12 vehicle-name text-blue-dark" style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;">
-              Item to sell #{{i + 1}}
+              {{titles[i]}}
             </div>
           </div>
           <div class="row">
@@ -119,9 +119,9 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <div class="pull-left text-center" style="background:#F2F2F2;padding:10px;">
+              <div class="pull-left text-center" style="background:#F2F2F2;padding:10px;border-radius:4px">
                 <b>
-                  $ 19 990
+                  $ {{prices[i]}}
                 </b>
               </div>
             </div>
