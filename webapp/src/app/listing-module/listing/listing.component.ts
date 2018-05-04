@@ -37,15 +37,28 @@ export class ListingComponent implements OnInit {
 
   constructor() { }
 
+  changecity(txt) {
+    this.model = txt.srcElement.value;
+    localStorage.setItem('state', this.model);
+  }
+
   changeCategory(_name: string) {
     if (this.name == _name) {
       this.name = "Category"
     }
     else
       this.name = _name;
+    localStorage.setItem('category', _name);
     this.isCollapsed = false;
   }
   ngOnInit() {
+    if (localStorage.getItem('state')) {
+      this.model = localStorage.getItem('state');
+    }
+    if (localStorage.getItem('category')) {
+      this.name = localStorage.getItem('category');
+    }
+
   }
 
 }

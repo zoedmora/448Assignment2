@@ -24,6 +24,7 @@ export class HomeComponent implements OnInit {
   public model: any;
   public isCollapsed = false;
   public name: string = "Category";
+  public state_name: string = "mdr";
 
   search = (text$: Observable<string>) =>
     text$
@@ -34,16 +35,30 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  changecity(txt) {
+    this.model = txt.srcElement.value;
+    localStorage.setItem('state', this.model);
+  }
+
   changeCategory(_name: string) {
     if (this.name == _name) {
       this.name = "Category"
     }
     else
       this.name = _name;
-    this.isCollapsed = false;
 
+    localStorage.setItem('category', _name);
+    this.isCollapsed = false;
   }
+
   ngOnInit() {
+    if (localStorage.getItem('state')) {
+      this.model = localStorage.getItem('state');
+    }
+    if (localStorage.getItem('category')) {
+      this.name = localStorage.getItem('category');
+    }
+
   }
 
 }

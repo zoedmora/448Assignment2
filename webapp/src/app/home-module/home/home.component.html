@@ -19,7 +19,8 @@
       <label class="sr-only" for="State">State</label>
       <input name="States" placeholder="State" type="text" class="form-control mb-2 mr-sm-2" id="State"
              [(ngModel)]="model"
-             [ngbTypeahead]="search"/>
+             [ngbTypeahead]="search"
+             (change)="changecity($event)"/>
 
 
       <button type="submit" class="btn mb-2 btn-craiglist" routerLink="/listing">Submit</button>
